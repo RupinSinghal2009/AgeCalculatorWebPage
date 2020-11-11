@@ -1,0 +1,28 @@
+body{
+	background: url("image.jpg");
+}
+
+.container-1{
+	border: 1px black solid;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: yellow;
+}
+
+.flex-box-container-1{
+	border: 1px black solid;
+	display: flex;
+	padding: 0px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: white;
+	justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+    display: flex;
+    border: 1px black solid;
+    align-items: center;
+}
